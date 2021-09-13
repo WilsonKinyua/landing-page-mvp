@@ -26,9 +26,9 @@
   background: #f5f5f5;
 }
 .btn {
-  width: 146px;
+  width: 190px;
   height: 50px;
-  background: #07d1f1;
+  /* background: #07d1f1; */
   border: none;
   border-radius: 5px;
   color: #ffffff;
@@ -38,6 +38,21 @@
   padding: 0;
   font-size: 15px;
   font-weight: 700;
+}
+
+.buttons-div a {
+  border: 1px solid #ffffff;
+}
+
+.buttons-div a:hover {
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.buttons-div .fa-calendar-plus {
+  color: #ffffff;
+  font-size: 20px;
+  margin-right: 10px;
 }
 .btn-inverse {
   background: #ffffff;
@@ -184,7 +199,9 @@
 /* banner section styles */
 
 .banner {
-  background: #000 url(../img/banner-1.png) 0 0 no-repeat;
+  background: #000
+    url("https://www2.law.temple.edu/10q/wp-content/uploads/2019/11/photo-copy-scaled.jpg")
+    0 0 no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
   padding-top: 230px;
@@ -306,17 +323,17 @@ ul.coundown li span {
 .about-section h3 {
   margin: 0;
   font-family: "Montserrat";
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 .about-section h4 {
-  font-size: 26px;
+  /* font-size: 26px; */
   color: #222222;
   line-height: 45px;
 }
 .about-section h3 {
-  font-size: 36px;
+  /* font-size: 36px; */
   color: #222222;
-  font-weight: 700;
+  /* font-weight: 900; */
 }
 .about-section h3 span {
   color: #07d1f1;
@@ -377,12 +394,12 @@ ul.coundown li span {
 
 /* speaker styles */
 
-.single-speaker {
+/* .single-speaker {
   text-align: center;
-}
+} */
 .single-speaker .img-box {
   overflow: hidden;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 .single-speaker h3 {
   font-size: 22px;
@@ -433,7 +450,7 @@ ul.coundown li span {
   border: 1px solid #ffffff;
   display: block;
   color: #fff;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   line-height: 43px;
   font-size: 15px;
   transition: all 0.3s ease;
@@ -743,8 +760,7 @@ ul.coundown li span {
 
 /* event gallery section styles */
 
-.event-gallery-section {
-}
+
 .event-gallery-section .single-gallery-box .img-box img {
   width: 100%;
 }
@@ -1389,9 +1405,9 @@ footer .contact-widget ul li {
   height: 40px;
   display: block;
   border: 1px solid #e6e6e6;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   font-size: 15px;
-  text-align: center;
+  /* text-align: center; */
   line-height: 38px;
   color: #848484;
   transition: all 0.4s ease;
@@ -1515,7 +1531,6 @@ footer .contact-widget ul li {
   font-size: 16px;
   color: #222222;
   margin: 0;
-  font-family: "Montserrat";
   text-transform: uppercase;
   font-weight: normal;
   margin-bottom: 10px;
@@ -1527,17 +1542,67 @@ footer .contact-widget ul li {
 
 /* ========================================= */
 .event-details-card {
-  background: rgb(0, 0, 0);
+  background: #000000;
   padding: 30px;
 }
 
 .mt-4 {
-	margin-top: 50px;
+  margin-top: 50px;
 }
 
 .logo-text {
-	font-size: 30px;
-	font-weight: 900;
-	text-transform: uppercase;
-	color: #fff;
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-below {
+  font-weight: 900;
+}
+
+/* .about-section h4 {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.about-section h4 {
+  content: "";
+  flex: 1;
+  margin-left: 1rem;
+  height: 1px;
+  background-color: #000;
+} */
+.about-section .line-after {
+  background-color: #ffffff;
+  margin-top: -52px;
+  width: 12%;
+}
+.about-section hr,
+.speaker-section hr {
+  border: 0.1px solid #7e7e7e;
+}
+
+.about-section .black {
+  font-size: 2.8rem;
+  font-weight: 300;
+}
+
+.headings-part h3 {
+  background-color: #ffffff;
+  margin-top: -52px;
+  width: 16%;
+}
+
+
+.headings {
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: capitalize;
+  color: #222222;
 }
