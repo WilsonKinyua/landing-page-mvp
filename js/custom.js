@@ -139,7 +139,7 @@
         loop: true,
         margin: 50,
         nav: false,
-        dots: true,
+        dots: false,
         autoWidth: true,
         navText: [
           '<i class="fa fa-angle-left"></i>',
